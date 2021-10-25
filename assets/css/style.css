@@ -32,20 +32,36 @@ body{
 }
 
 header {
-    background-color: var(--cor4);
+    min-height: 150px;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    text-align: center;
+    padding-top: 40px;
 }
 
-h1{
+header > h1{
     color: #FFF;
     font-family: var(--fonte-android);
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+
 }
 
-header >p {
+header > p {
     color: #FFF;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
 nav {
     background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: ;
 }
 
 main {
