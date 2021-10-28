@@ -3,3 +3,4 @@ Websites
 - Adobe Color
 - Google Fonts (Bebas Neue)
 - Dafont (Idroid)
+- Emojipedia
